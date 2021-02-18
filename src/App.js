@@ -12,7 +12,8 @@ function App() {
 	const [cart, setCart] = useState([]);
 
 	const addItem = item => {
-		// add the given item to the cart
+		//add logic here to set an item in the cart. 
+		setCart([...cart, item])
 	};
 
 	return (
