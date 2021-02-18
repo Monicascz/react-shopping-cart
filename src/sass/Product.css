@@ -5,10 +5,14 @@
 	width: 333px;
 	margin: 30px;
 
-	&:hover {
+	
+}
+
+.product:hover {
 		box-shadow: 0px 5px 37px -22px rgba(0, 0, 0, 1);
 	}
 
+	
 	.details {
 		display: flex;
 	}
@@ -39,11 +43,9 @@
 		margin: 10px 0;
 		color: lightcoral;
 		margin-left: 25px;
-
-		&:hover {
+	}
+		button:hover {
 			cursor: pointer;
 			background: lightcoral;
 			color: white;
 		}
-	}
-}
